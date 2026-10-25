@@ -1,5 +1,5 @@
 <script setup>
-import profilePhoto from './assets/profile.jpg'
+import profilePhoto from './assets/profile.png'
 const name = 'Lemith'
 const description = 'Software Engineering Undergraduate'
 </script>
