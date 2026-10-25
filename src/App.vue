@@ -7,6 +7,11 @@ const description = 'Software Engineering Undergraduate'
 <template>
   <main>
     <div class="profile-card">
+        <img
+    :src="profilePhoto"
+    alt="Lemith's profile photo"
+    class="profile-photo"
+  />
       <h1>{{ name }}</h1>
       <p>{{ description }}</p>
     </div>
@@ -20,6 +25,14 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #eef2ff;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .profile-card {
